@@ -3,12 +3,28 @@
         "name": "Scorekeeper",
         "url": "scorekeeper",
         "github": "https://www.google.com/",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla justo non nisl pulvinar tincidunt. Nulla ut suscipit felis. Curabitur venenatis interdum enim, sit amet efficitur purus feugiat et. Fusce leo metus, molestie et vulputate sit amet, ultricies id urna. Vestibulum auctor dui eget pellentesque volutpat. Pellentesque blandit elit sit amet lectus sodales iaculis. Pellentesque sem ipsum, tincidunt vitae libero at, placerat aliquam magna."
+        "video": "",
+        "description": [
+            {
+                "id": "1",
+                "text": "Scorekeeper is a Java library constructed for the purpose of allowing games and other programs to track user's specific statistics or anything else like that."
+            },
+            {
+                "id": "2",
+                "text": "Scorekeeper utilizes several data storage methods that can be selected using a configuration file. The options included are storing with JSON files or using a provided connection, stored within a MySQL database."
+            }
+        ]
     },
     {
         "name": "Project2",
         "url": "project2",
         "github": "",
-        "description": ""
+        "video": "",
+        "description": [
+            {
+                "id": "1",
+                "text": "This will be a project."
+            }
+        ]
     }
 ]

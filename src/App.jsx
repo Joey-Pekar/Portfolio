@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Container, Card, Nav, Navbar } from 'react-bootstrap';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import { LinkContainer } from "react-router-bootstrap";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import Projects, { ProjectDropdown } from "./components/Projects.jsx";
 import Footer from "./components/Footer.jsx";
@@ -37,6 +38,7 @@ class App extends Component {
                             <Projects />
                         </Route>
                         <Route path="/">
+                            <Homepage />
                         </Route>
                     </Switch>
 
@@ -49,3 +51,28 @@ class App extends Component {
 
 }
 export default App;
+
+class Homepage extends Component {
+
+    render() {
+
+        return (
+            <Container>
+                <Card>
+                    <Card.Header>
+                        <h1>Portfolio</h1>
+                        <a href='https://github.com/Joey-Pekar/Portfolio'><FontAwesomeIcon icon={faGithub} /> Github Repository</a>
+                    </Card.Header>
+                    <Card.Body>
+                        <p></p>
+                    </Card.Body>
+                </Card>
+                
+
+            </Container>
+        );
+
+    }
+
+
+}

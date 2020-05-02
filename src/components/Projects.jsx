@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Container, NavDropdown, Card } from 'react-bootstrap';
-import { Switch, Route, useRouteMatch } from 'react-router-dom';
+import { Container, NavDropdown, Card, Tabs, Tab } from 'react-bootstrap';
+import { Switch, Route } from 'react-router-dom';
 import { LinkContainer } from "react-router-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFolder } from '@fortawesome/free-solid-svg-icons';
@@ -38,6 +38,12 @@ class ProjectPage extends Component {
     render() {
 
         let projFile = this.props.project;
+        let description = projFile.description.map((desc) => 
+        
+            <p key={desc.id}>{desc.text}</p>
+        
+        );
+
 
         return (
             <Container>
@@ -47,7 +53,17 @@ class ProjectPage extends Component {
                         <a href={projFile.github}><FontAwesomeIcon icon={faGithub} /> Github</a>
                     </Card.Header>
                     <Card.Body>
-                        <p>{projFile.description}</p>
+                        <Tabs defaultActiveKey="desc" id="tabs">
+                            <Tab eventKey="desc" title="Description">
+                                <br />
+                                {description}
+                            </Tab>
+                            <Tab eventKey="images" title="Images">
+                                <br />
+                                <p>INSERT IMAGES</p>
+                            </Tab>
+                            
+                        </Tabs>
                     </Card.Body>
                 </Card>
                 
