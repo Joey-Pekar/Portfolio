@@ -42,6 +42,10 @@
             {
                 "id": "2",
                 "text": "Using React Router, it can determine what components to display based on the current url of page. Components of specific pages are generated automatically from the JSON file specified. The only pages that are automatically included within the website is the Home and Contact pages."
+            },
+            {
+                "id": "3",
+                "text": "Additional tools used for the development of this website were Font Awesome, Google Fonts, and Webpack, the latter of which was used to compile SASS and JSX files for use on the site."
             }
         ],
         "images": []

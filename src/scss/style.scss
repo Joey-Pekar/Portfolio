@@ -6,6 +6,7 @@ $navbar-color: #004C4C;
 $page-background: #19264d;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Varela+Round&display=swap');
 
 .topnav {
 
@@ -51,4 +52,15 @@ img.focus {
   box-shadow: 0.2rem 0.2rem 0.2rem black;
   border-radius: 0.05rem
 
+}
+
+.homeHeader {
+  background-color: theme-color("primary");
+  color: theme-color("light");
+  font-family: 'Lobster Two', cursive;
+
+}
+
+p, a {
+  font-family: 'Varela Round', sans-serif;
 }
