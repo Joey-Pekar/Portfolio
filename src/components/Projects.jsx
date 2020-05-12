@@ -47,7 +47,7 @@ class ProjectPage extends Component {
         let images = projFile.images.map((img) =>
 
             <Card key={img.id}>
-                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}${img.dir}`} alt={img.alt}/>
+                <Card.Img variant="top" src={img.dir} alt={img.alt}/>
                 <Card.Body>
                     <Card.Text>{img.text}</Card.Text>
                 </Card.Body>

@@ -22,7 +22,7 @@
         "images": [
             {
                 "id": "1",
-                "dir": "/img/star-gen/Example.png",
+                "dir": "https://raw.githubusercontent.com/Joey-Pekar/Portfolio/master/img/star-gen/Example.png",
                 "alt": "Image of output",
                 "text": "Example output for Star Generator"
             }
