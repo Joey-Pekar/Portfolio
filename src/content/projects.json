@@ -1,29 +1,30 @@
 [
     {
-        "name": "Scorekeeper",
-        "url": "scorekeeper",
-        "github": "https://www.google.com/",
+        "name": "Star Generator",
+        "url": "stargenerator",
+        "github": "https://github.com/Joey-Pekar/star-generator",
+        "link": "https://star-generator.glitch.me/",
         "video": "",
         "description": [
             {
                 "id": "1",
-                "text": "Scorekeeper is a Java library constructed for the purpose of allowing games and other programs to track user's specific statistics or anything else like that."
+                "text": "Star Generator was a project that I originally made just using HTML, CSS and JavaScript back when I was in High School. It was a project I had decided to make on night, and I ended up enjoying it. Utilizing the HTML Canvas Element, the program allows for the randomized creation of a star map, complete with a customizable size feature."
             },
             {
                 "id": "2",
-                "text": "Scorekeeper utilizes several data storage methods that can be selected using a configuration file. The options included are storing with JSON files or using a provided connection, stored within a MySQL database."
+                "text": "Recently, I have revived the project as a way for me to venture into learning React, as it was something I was interested in. My first project idea to do in React was to create a faithful recreation of that original website. As such, I didn't feel a need to modify it in any extreme way."
+            },
+            {
+                "id": "3",
+                "text": "The website is currently hosted online using the free website Glitch.com, which allows for free publishing of web applications dependent on Node.JS. The website can be reached by clicking on the website link in the header of this page or by following the link here: https://star-generator.glitch.me/"
             }
-        ]
-    },
-    {
-        "name": "Project2",
-        "url": "project2",
-        "github": "",
-        "video": "",
-        "description": [
+        ],
+        "images": [
             {
                 "id": "1",
-                "text": "This will be a project."
+                "dir": "/img/star-gen/Example.png",
+                "alt": "Image of output",
+                "text": "Example output for Star Generator"
             }
         ]
     }

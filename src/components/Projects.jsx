@@ -44,6 +44,17 @@ class ProjectPage extends Component {
         
         );
 
+        let images = projFile.images.map((img) =>
+
+            <Card key={img.id}>
+                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}${img.dir}`} alt={img.alt}/>
+                <Card.Body>
+                    <Card.Text>{img.text}</Card.Text>
+                </Card.Body>
+            </Card>
+
+        );
+
 
         return (
             <Container>
@@ -60,7 +71,7 @@ class ProjectPage extends Component {
                             </Tab>
                             <Tab eventKey="images" title="Images">
                                 <br />
-                                <p>INSERT IMAGES</p>
+                                {images}
                             </Tab>
                             
                         </Tabs>

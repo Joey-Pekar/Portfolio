@@ -61,7 +61,6 @@ class Homepage extends Component {
                 <Card>
                     <Card.Header>
                         <h1>Portfolio</h1>
-                        <a href='https://github.com/Joey-Pekar/Portfolio'><FontAwesomeIcon icon={faGithub} /> Github Repository</a>
                     </Card.Header>
                     <Card.Body>
                         <p></p>
