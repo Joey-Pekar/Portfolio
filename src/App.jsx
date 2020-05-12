@@ -62,6 +62,7 @@ class Homepage extends Component {
                         <h1>Joey Pekar</h1>
                     </Card.Header>
                     <Card.Body>
+                        <img className="float-left" src="https://raw.githubusercontent.com/Joey-Pekar/Portfolio/master/img/home/picture.png"></img>
                         <p>I am a developer with a passion for Java, games and websites. Currently, I live in Akron, Ohio. I enjoy a variety of programming projects, from game development to creating websites such as this one. If you are interested in reaching out to me, feel free to go to the contact page.</p>
                     </Card.Body>
                 </Card>
