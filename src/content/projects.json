@@ -27,5 +27,23 @@
                 "text": "Example output for Star Generator"
             }
         ]
+    },
+    {
+        "name": "Portfolio",
+        "url": "portfolio",
+        "github": "https://github.com/Joey-Pekar/Portfolio",
+        "link": "",
+        "video": "",
+        "description": [
+            {
+                "id": "1",
+                "text": "This website is added because while it just serves to showcase my other projects, it was a project of itself. Developed using React and React-Bootstrap, this portfolio site was developed to be easily extendable. Through the use of a simple JSON file, projects can be easily added, including images and Github access."
+            },
+            {
+                "id": "2",
+                "text": "Using React Router, it can determine what components to display based on the current url of page. Components of specific pages are generated automatically from the JSON file specified. The only pages that are automatically included within the website is the Home and Contact pages."
+            }
+        ],
+        "images": []
     }
 ]

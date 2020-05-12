@@ -4,7 +4,6 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 import { LinkContainer } from "react-router-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import Projects, { ProjectDropdown } from "./components/Projects.jsx";
 import Footer from "./components/Footer.jsx";
@@ -60,10 +59,10 @@ class Homepage extends Component {
             <Container>
                 <Card>
                     <Card.Header>
-                        <h1>Portfolio</h1>
+                        <h1>Joey Pekar</h1>
                     </Card.Header>
                     <Card.Body>
-                        <p></p>
+                        <p>I am a developer with a passion for Java, games and websites. Currently, I live in Akron, Ohio. I enjoy a variety of programming projects, from game development to creating websites such as this one. If you are interested in reaching out to me, feel free to go to the contact page.</p>
                     </Card.Body>
                 </Card>
                 

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { Container, NavDropdown, Card, Tabs, Tab } from 'react-bootstrap';
+import { Container, NavDropdown, Card, Tabs, Tab, Carousel } from 'react-bootstrap';
 import { Switch, Route } from 'react-router-dom';
 import { LinkContainer } from "react-router-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFolder } from '@fortawesome/free-solid-svg-icons';
+import { faFolder, faLink } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import projList from '../content/projects.json';
@@ -46,33 +46,51 @@ class ProjectPage extends Component {
 
         let images = projFile.images.map((img) =>
 
-            <Card key={img.id}>
-                <Card.Img variant="top" src={img.dir} alt={img.alt}/>
-                <Card.Body>
-                    <Card.Text>{img.text}</Card.Text>
-                </Card.Body>
-            </Card>
+            <Carousel.Item key={img.id}>
+                <img className="d-block w-100" src={img.dir} alt={img.alt} />
+                <Carousel.Caption>
+                    <p>{img.text}</p>
+                </Carousel.Caption>
+            </Carousel.Item>
 
         );
 
+        let link = "";
+
+        if (projFile.link != "") {
+
+            link = ( <a href={projFile.link}><FontAwesomeIcon icon={faLink} /> Link</a>);
+
+        }
+
+        let imageTab = "";
+
+        if (projFile.images.length != 0) {
+
+            imageTab = (
+                <Tab eventKey="images" title="Images">
+                                <br />
+                                <Carousel className="mx-auto" style={{width: "60%"}}>{images}</Carousel>
+                            </Tab>
+            );
+
+        }
 
         return (
             <Container>
                 <Card>
                     <Card.Header>
                         <h1>{projFile.name}</h1>
-                        <a href={projFile.github}><FontAwesomeIcon icon={faGithub} /> Github</a>
+                        <a href={projFile.github}><FontAwesomeIcon icon={faGithub} /> Github</a> {link}
                     </Card.Header>
                     <Card.Body>
+                        
                         <Tabs defaultActiveKey="desc" id="tabs">
                             <Tab eventKey="desc" title="Description">
                                 <br />
                                 {description}
                             </Tab>
-                            <Tab eventKey="images" title="Images">
-                                <br />
-                                {images}
-                            </Tab>
+                            {imageTab}
                             
                         </Tabs>
                     </Card.Body>
