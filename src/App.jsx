@@ -29,7 +29,7 @@ class App extends Component {
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
-                    <br />             
+                    <br />
                     <Switch>
                         <Route path="/contact">
                         </Route>
@@ -62,11 +62,14 @@ class Homepage extends Component {
                         <h1>Joey Pekar</h1>
                     </Card.Header>
                     <Card.Body>
-                        <img className="float-left" src="https://raw.githubusercontent.com/Joey-Pekar/Portfolio/master/img/home/picture.png"></img>
-                        <p>I am a developer with a passion for Java, games and websites. Currently, I live in Akron, Ohio. I enjoy a variety of programming projects, from game development to creating websites such as this one. If you are interested in reaching out to me, feel free to go to the contact page.</p>
+                        <img className="focus float-left mr-5" src="https://raw.githubusercontent.com/Joey-Pekar/Portfolio/master/img/home/picture.png" alt="Joey Pekar" style={{ width: "15rem" }}></img>
+                        <Container>
+                            <p>I am a developer with a passion for Java, games and websites. Currently, I live in Akron, Ohio. I enjoy a variety of programming projects, from game development to creating websites such as this one. Here are some helpful buttons that can take you around the site.</p>
+
+                        </Container>
                     </Card.Body>
                 </Card>
-                
+
 
             </Container>
         );

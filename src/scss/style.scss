@@ -10,7 +10,7 @@ $page-background: #19264d;
 .topnav {
 
     background-color: $navbar-color;
-    border-bottom: ridge #131c3a 0.1em;
+    box-shadow: 0.2rem 0.02rem black;
 
 }
 html {
@@ -43,5 +43,12 @@ body {
 .footer-link {
 
   color: #d7fffe;
+
+}
+
+img.focus {
+
+  box-shadow: 0.2rem 0.2rem 0.2rem black;
+  border-radius: 0.05rem
 
 }
