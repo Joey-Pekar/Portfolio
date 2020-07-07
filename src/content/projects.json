@@ -67,7 +67,7 @@
             },
             {
                 "id": "3",
-                "text": "In addition, a simple demo application was developed using Java and JavaFX to demonstrate it's functionality. The demo does require a MySQL database to be provided."
+                "text": "In addition, a simple demo application was developed using Java and JavaFX to demonstrate it's functionality. The demo does require a MySQL database to be provided. The demo is available at https://github.com/Joey-Pekar/ScorekeeperDemo."
             }
         ],
         "images": [
@@ -89,6 +89,30 @@
                 "alt": "Database Table Showcase",
                 "text": "Database Table Showcase"
             }
+        ]
+    },
+    {
+        "name": "Genesys Item Collection",
+        "url": "itemcollection",
+        "github": "https://github.com/Joey-Pekar/GenesysItemCollection",
+        "link": "https://genesysitemcollection.azurewebsites.net/",
+        "video": "",
+        "description": [
+            {
+                "id": "1",
+                "text": "Genesys Item Collection is a website and HTTP API used to get items compatible with Genesys and FFG Star Wars Tabletop Role-Playing Games."
+            },
+            {
+                "id": "2",
+                "text": "The site was created using ASP.Net and C#. The items are saved in a MongoDB Database. The site includes tables for both Weapons and Armor, along with a creation button and information on how to use the API."
+            },
+            {
+                "id": "3",
+                "text": "The API provides several ways to get lists or specific items and armor, returned as JSON objects."
+            }
+        ],
+        "images": [
+
         ]
     },
     {

@@ -106,6 +106,11 @@ class ContactPage extends Component {
                         <Alert variant="primary"><a href="mailto:joey.pekar1@gmail.com"><FontAwesomeIcon icon={faEnvelopeSquare} className="mr-2" />joey.pekar1@gmail.com</a></Alert>
                         <p>Alternatively, if you are looking for more information, feel free to check out my resume. This is the download link.</p>
                         <Button href="https://github.com/Joey-Pekar/Portfolio/blob/master/files/Joseph%20Pekar%20Resume.pdf?raw=true" size="lg"><FontAwesomeIcon icon={faFileDownload} className="mr-2" />Resume</Button>
+
+                        <br />
+                        <p></p>
+                        <p>To see more information on the projects shown, download the presentation below:</p>
+                        <Button href="https://github.com/Joey-Pekar/Portfolio/blob/master/files/Presentation.pptx?raw=true" size="lg"><FontAwesomeIcon icon={faFileDownload} className="mr-2" />Powerpoint Presentation</Button>
                                 
                     </Card.Body>
                 </Card>
