@@ -63,7 +63,7 @@
             },
             {
                 "id": "2",
-                "text": "Scorekeeper was developed in IntelliJ, using Maven to get dependencies. Dependencies include MySQL Connector Java and JUnit"
+                "text": "Scorekeeper was developed in IntelliJ, using Maven to get dependencies. Dependencies include MySQL Connector Java and JUnit for database access and testing respectively."
             },
             {
                 "id": "3",
@@ -71,7 +71,24 @@
             }
         ],
         "images": [
-
+            {
+                "id": "1",
+                "dir": "https://raw.githubusercontent.com/Joey-Pekar/Portfolio/master/img/scorekeeper/image1.png",
+                "alt": "Image of demo",
+                "text": "Scorekeeper Demo Startup"
+            },
+            {
+                "id": "2",
+                "dir": "https://raw.githubusercontent.com/Joey-Pekar/Portfolio/master/img/scorekeeper/image2.png",
+                "alt": "Image of demo",
+                "text": "Scorekeeper Demo Usage"
+            },
+            {
+                "id": "3",
+                "dir": "https://raw.githubusercontent.com/Joey-Pekar/Portfolio/master/img/scorekeeper/image3.png",
+                "alt": "Database Table Showcase",
+                "text": "Database Table Showcase"
+            }
         ]
     },
     {
