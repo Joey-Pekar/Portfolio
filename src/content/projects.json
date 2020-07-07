@@ -49,5 +49,53 @@
             }
         ],
         "images": []
+    },
+    {
+        "name": "Scorekeeper",
+        "url": "scorekeeper",
+        "github": "https://github.com/Joey-Pekar/Scorekeeper",
+        "link": "",
+        "video": "",
+        "description": [
+            {
+                "id": "1",
+                "text": "Scorekeeper is a Java library used for creating, storing and pulling user scores from a MySQL database. It utilizes Reflection to take a class as an argument, and take the fields in that class and turn them into columns in a table."
+            },
+            {
+                "id": "2",
+                "text": "Scorekeeper was developed in IntelliJ, using Maven to get dependencies. Dependencies include MySQL Connector Java and JUnit"
+            },
+            {
+                "id": "3",
+                "text": "In addition, a simple demo application was developed using Java and JavaFX to demonstrate it's functionality. The demo does require a MySQL database to be provided."
+            }
+        ],
+        "images": [
+
+        ]
+    },
+    {
+        "name": "Opponents",
+        "url": "opponents",
+        "github": "https://github.com/Joey-Pekar/Opponents",
+        "link": "https://joey-pekar.github.io/OpponentsApp/",
+        "video": "",
+        "description": [
+            {
+                "id": "1",
+                "text": "Opponents is a web site developed using React. It is a Stat-Block generator for the Genesys and FFG Star Wars Tabletop Role-Playing Games."
+            },
+            {
+                "id": "2",
+                "text": "This provides all the tools to make an enemy statblock within both systems, including input for every skill. Upon completion, the statblock can then be converted to a PDF file and downloaded."
+            },
+            {
+                "id": "3",
+                "text": "Tools used for this include React-PDF for generating the PDF, React-Bootstrap for Bootstrap formatting, SASS for CSS Stylesheets and Webpack to bundle the files."
+            }
+        ],
+        "images": [
+
+        ]
     }
 ]
