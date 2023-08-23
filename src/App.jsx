@@ -66,7 +66,7 @@ class Homepage extends Component {
                     <Card.Body>
                         <img className="focus float-left mr-5" src="https://raw.githubusercontent.com/Joey-Pekar/Portfolio/master/img/home/picture.png" alt="Joey Pekar" style={{ width: "15rem" }}></img>
                         <Container>
-                            <p>I am a developer with a passion for Java, games and websites. Currently, I live in Akron, Ohio. I enjoy a variety of programming projects, from game development to creating websites such as this one. Here are some helpful buttons that can take you around the site.</p>
+                            <p>I am a developer with a passion for web and game development. I enjoy a variety of programming projects, from game development to creating websites such as this one. Here are some helpful buttons that can take you around the site.</p>
                             <Row>
                                 <Col>
                                     <Button href="https://github.com/Joey-Pekar/Portfolio/blob/master/files/Joseph%20Pekar%20Resume.pdf?raw=true" size="lg"><FontAwesomeIcon icon={faFileDownload} className="mr-2" />Resume</Button>
