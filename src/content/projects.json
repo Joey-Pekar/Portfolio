@@ -95,7 +95,7 @@
         "name": "Genesys Item Collection",
         "url": "itemcollection",
         "github": "https://github.com/Joey-Pekar/GenesysItemCollection",
-        "link": "https://genesysitemcollection.azurewebsites.net/",
+        "link": "",
         "video": "",
         "description": [
             {
@@ -133,6 +133,30 @@
             {
                 "id": "3",
                 "text": "Tools used for this include React-PDF for generating the PDF, React-Bootstrap for Bootstrap formatting, SASS for CSS Stylesheets and Webpack to bundle the files."
+            }
+        ],
+        "images": [
+
+        ]
+    },
+    {
+        "name": "Promway Rescue",
+        "url": "promwayrescue",
+        "github": "https://github.com/Joey-Pekar/promway-rescue",
+        "link": "https://promwayrescue.org/",
+        "video": "",
+        "description": [
+            {
+                "id": "1",
+                "text": "This is the website for Promway Rescue, a 501c3 dog rescue located in North Canton, Ohio."
+            },
+            {
+                "id": "2",
+                "text": "Build with Django, PostgreSQL and TailwindCSS, this website provides a platform for people to view the dogs available at the rescue."
+            },
+            {
+                "id": "3",
+                "text": "This project incorporates the use of TailwindCSS for the styling of the pages, Font Awesome for icons and Flowbite for interactive JavaScript Tailwind-compatible components."
             }
         ],
         "images": [
